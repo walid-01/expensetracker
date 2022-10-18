@@ -1,0 +1,29 @@
+.In-out-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.In-out {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    padding: 5px 0;
+}
+
+.green-balance {
+    color: #62b988;
+}
+
+.red-balance {
+    color: #d95c55;
+}
+
+.border-right {
+    border-right: #dedede solid 1px;
+}

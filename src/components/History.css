@@ -1,0 +1,24 @@
+.history-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.history-item {
+    margin: 5px 0;
+    padding: 2.5px 7.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+}
+
+.positive {
+    border-right: 4px #62b988 solid;
+}
+
+.negative {
+    border-right: 4px #d95c55 solid;
+}
