@@ -8,17 +8,17 @@ import { TransactionsProvider } from "./data/TransactionsContext";
 
 function App() {
   return (
-    <div className="main">
-      <div className="App">
-        <TransactionsProvider>
+    <TransactionsProvider>
+      <div className="main">
+        <div className="App">
           <Title />
           <Balance />
           <InOut />
           <History />
           <AddTransaction />
-        </TransactionsProvider>
+        </div>
       </div>
-    </div>
+    </TransactionsProvider>
   );
 }
 
